@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Listings Grid</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>HomeFinder</h1>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Listings</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="actions">
+            <button class="btn btn-secondary">Sign In</button>
+            <button class="btn btn-primary">Post a Listing</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Find your fresh start</h2>
+            <p>Discover thousands of houses and apartments for rent.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search by location or property name">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Featured Properties</h2>
+        
+        <div class="filters">
+            <button class="filter-btn active">All</button>
+            <button class="filter-btn">Houses</button>
+            <button class="filter-btn">Apartments</button>
+            <button class="filter-btn">Condos</button>
+        </div>
+        
+        <div class="properties-grid">
+
+            <div class="property-card">
+                <div class="property-image" style="background-color: #4ECDC4;"></div>
+                <div class="property-details">
+                    <h3>Modern Apartment</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Downtown, City</p>
+                    <p class="price">$1,200/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 2 beds</span>
+                        <span><i class="fas fa-bath"></i> 1 bath</span>
+                        <span><i class="fas fa-ruler-combined"></i> 850 sq ft</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image" style="background-color: #FF6B6B;"></div>
+                <div class="property-details">
+                    <h3>Cozy Studio</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Midtown, City</p>
+                    <p class="price">$950/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 1 bed</span>
+                        <span><i class="fas fa-bath"></i> 1 bath</span>
+                        <span><i class="fas fa-ruler-combined"></i> 550 sq ft</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image" style="background-color: #FFD166;"></div>
+                <div class="property-details">
+                    <h3>Luxury Condo</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Riverside, City</p>
+                    <p class="price">$2,500/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 3 beds</span>
+                        <span><i class="fas fa-bath"></i> 2 baths</span>
+                        <span><i class="fas fa-ruler-combined"></i> 1200 sq ft</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image" style="background-color: #06D6A0;"></div>
+                <div class="property-details">
+                    <h3>Family House</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Suburbs, City</p>
+                    <p class="price">$1,800/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 4 beds</span>
+                        <span><i class="fas fa-bath"></i> 2.5 baths</span>
+                        <span><i class="fas fa-ruler-combined"></i> 1800 sq ft</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image" style="background-color: #118AB2;"></div>
+                <div class="property-details">
+                    <h3>Penthouse Suite</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> City Center, City</p>
+                    <p class="price">$3,500/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 3 beds</span>
+                        <span><i class="fas fa-bath"></i> 3 baths</span>
+                        <span><i class="fas fa-ruler-combined"></i> 2000 sq ft</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="property-card">
+                <div class="property-image" style="background-color: #073B4C;"></div>
+                <div class="property-details">
+                    <h3>Garden Apartment</h3>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Green Hills, City</p>
+                    <p class="price">$1,400/month</p>
+                    <div class="property-features">
+                        <span><i class="fas fa-bed"></i> 2 beds</span>
+                        <span><i class="fas fa-bath"></i> 1 bath</span>
+                        <span><i class="fas fa-ruler-combined"></i> 900 sq ft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>HomeFinder</h3>
+                <p>Find your perfect home with our extensive listings of properties for rent.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Listings</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> daron3327@gmail.com</p>
+                <p><i class="fas fa-phone"></i> (855) 313-473-327</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/18oXHR6M5b/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/kea-daron"><i class="fa-brands fa-github-alt"></i>
+                    <a href="https://t.me/kea_daron"><i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 HomeFinder. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
